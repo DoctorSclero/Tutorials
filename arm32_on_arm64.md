@@ -42,7 +42,7 @@ ln -s arm-linux-gnueabihf/ld-2.23.so ld-linux.so.3
 I cross-compiler forniti dalla Gnu Compiler Collection (GCC) seguono
 questa naming convention:
 
-**gcc**-\<architecture-vendor\>-(\<os\>-)abi
+**gcc**-\<architecture\>-\<vendor\>-(\<os\>-)abi
 
 nel nostro caso quello che useremo in particolare sara'
 
