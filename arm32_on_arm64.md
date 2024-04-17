@@ -14,7 +14,7 @@ sudo apt install gcc-aarch64-linux-gnu -y
 Per compilare scrivete il seguente comando:
 
 ```
-arm-linux-gnueabihf-gcc <nome_sorgente> -o <nome_eseguibile>
+arm-linux-gnueabihf-gcc <nome_sorgente> -o <nome_eseguibile> -ggdb
 ```
 
 Avremo ora un'eseguibile a cui pero' servono delle librerie di sistema
